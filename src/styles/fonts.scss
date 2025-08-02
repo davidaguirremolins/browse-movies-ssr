@@ -1,0 +1,36 @@
+// Font definitions for different movie categories
+
+@font-face {
+  font-family: 'Cowboy';
+  src: url('/fonts/cowboy-outlaw/Cowboy Outlaw.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robotics';
+  src: url('/fonts/robotics-galactus/Robotics Galactus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Horror';
+  src: url('/fonts/horror-spray-demo/HORROR SPRAY DEMO Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Documentary';
+  src: url('/fonts/documentary/Documentary.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// CSS custom properties for category fonts
+:root {
+  --font-western: 'Cowboy', 'Georgia', serif;
+  --font-science-fiction: 'Robotics', 'Arial', monospace;
+  --font-horror: 'Horror', 'Times New Roman', serif;
+}

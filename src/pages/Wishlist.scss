@@ -1,0 +1,25 @@
+.wishlist {
+    min-height: 100vh;
+    padding: var(--spacing-lg);
+}
+
+.wishlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.wishlist-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.wishlist-empty {
+    text-align: center;
+    padding: var(--spacing-xl);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

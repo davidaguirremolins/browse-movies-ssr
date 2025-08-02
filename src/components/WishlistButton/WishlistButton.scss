@@ -1,0 +1,21 @@
+.button {
+    position: relative;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: var(--transition);
+    min-width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: var(--color-text);
+    }
+}

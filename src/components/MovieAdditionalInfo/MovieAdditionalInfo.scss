@@ -1,0 +1,40 @@
+.movie-detail-additional {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    background: #ffffff9e;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.movie-detail-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.movie-detail-genre {
+    background: var(--color-secondary);
+    color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.movie-detail-meta {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.2rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+.movie-detail-tagline {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--theme-secondary, var(--color-text-secondary));
+    margin: 0;
+    text-align: justify;
+}
