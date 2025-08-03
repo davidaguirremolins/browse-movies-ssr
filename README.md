@@ -2,7 +2,32 @@
 
 A movie browsing application built with React, TypeScript, and Vite featuring Server-Side Rendering (SSR).
 
-## Features
+<div align="center">
+  
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CF649A?style=for-the-badge&logo=sass&logoColor=white)
+
+</div>
+
+## 📱 Screenshots
+
+<div align="center">
+  <img src="docs/images/Screenshot 2025-08-03 015938.png" alt="Home Page" width="45%">
+  <img src="docs/images/Screenshot 2025-08-03 015954.png" alt="Movie Categories" width="45%">
+</div>
+
+<div align="center">
+  <img src="docs/images/Screenshot 2025-08-03 020013.png" alt="Movie Details" width="45%">
+  <img src="docs/images/Screenshot 2025-08-03 020030.png" alt="Movie Information" width="45%">
+</div>
+
+<div align="center">
+  <img src="docs/images/Screenshot 2025-08-03 020040.png" alt="Wishlist Page" width="80%">
+</div>
+
+## 🚀 Features
 
 - **Movie Browsing**: Browse movies by different categories (Western, Documentary, Sci-Fi)
 - **Movie Details**: Detailed view with additional movie information
@@ -22,12 +47,12 @@ A movie browsing application built with React, TypeScript, and Vite featuring Se
 - **Build**: Vite with SSR support
 - **Fonts**: Custom themed fonts for different movie categories
 
-## Installation
+## 📦 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/browse-films-ssr.git
-cd browse-films-ssr
+git clone https://github.com/davidaguirremolins/browse-movies-ssr.git
+cd browse-movies-ssr
 ```
 
 2. Install dependencies:
